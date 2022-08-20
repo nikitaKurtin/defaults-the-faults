@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MaliciousActivity">
+
+    <TextView
+        android:id="@+id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@id/ttl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toast1"
+        android:text="simple"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_below="@id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toast2"
+        android:text="image"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_below="@id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toast3"
+        android:text="video"
+        />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_below="@id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toast4"
+        android:text="webview"
+        />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_below="@id/ttl"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toast5"
+        android:text="fullscreen"
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_below="@id/btn5"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="scheduleAttack"
+        android:text="scheduleAttack"
+        />
+
+</RelativeLayout>

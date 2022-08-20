@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MaliciousApp</string>
+    <string name="malicious">Malicious</string>
+    <string name="hijacked_app_name">DefCon POCs</string>
+</resources>

