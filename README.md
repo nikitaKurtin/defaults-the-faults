@@ -3,7 +3,9 @@ Code examples for my talk at DefCon30
 
 ## Android `MaliciousApp` 
 Toast customization examples 
+
 Attack examples - you can choose which attack to execute in the `MaliciousActivity.scheduleAttack` method
+
 The app will close, and the attack would execute after delay configured in the `howLongToWait` param
 
 ### Notes :
@@ -15,3 +17,7 @@ Target victim example - used for clickjacking and uninstall examples
 
 ## NodeJS Server `MaliciousServer`
 Simple server example for the two-way internet bypass and location bypass examples
+
+## PDF presentation which I used in my talk
+
+[Kurtin-DefaultsTheFaults-v0.6.pdf](https://github.com/nikitaKurtin/defaults-the-faults/blob/main/Kurtin-DefaultsTheFaults-v0.6.pdf)
